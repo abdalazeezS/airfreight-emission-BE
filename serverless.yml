@@ -1,0 +1,53 @@
+service: trips-emissions
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: eu-west-1
+  profile: default
+  memorySize: 256
+  stage: dev
+
+plugins:
+  - serverless-offline
+
+functions:
+  trips:
+    handler: handler.getTrips
+    name: "trips api"
+    description: "slspress offline example"
+    events:
+      - http:
+          path: trips
+          method: get
+          cors: true
+
+  origins:
+    handler: handler.getOrigins
+    name: "origins"
+    description: "origins api"
+    events:
+      - http:
+          path: origins
+          method: get
+          cors: true
+
+  destinations:
+    handler: handler.getDestinations
+    name: "destinations"
+    description: "destinations api"
+    events:
+      - http:
+          path: destinations
+          method: get
+          cors: true
+          
+  airlines:
+    handler: handler.getAirlines
+    name: "airlines"
+    description: "airlines api"
+    events:
+      - http:
+          path: airlines
+          method: get
+          cors: true
