@@ -274,6 +274,7 @@ const origins = [
   "Mahdalynivka",
   "Dalmeny",
 ];
+origins.sort((a, b) => a.localeCompare(b));
 
 const destinations = [
   "Cincinnati",
@@ -307,6 +308,7 @@ const destinations = [
   "Jinji",
   "Paraiso",
 ];
+destinations.sort((a, b) => a.localeCompare(b));
 
 const airlines = [
   "Pimenta Bueno Airport",
@@ -340,4 +342,6 @@ const airlines = [
   "Kotoka International Airport",
   "Boulder Municipal Airport",
 ]
+airlines.sort((a, b) => a.localeCompare(b));
+
 export { trips, origins, destinations, airlines };

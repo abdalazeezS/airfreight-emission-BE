@@ -12,8 +12,6 @@ const getTrips = (event, context, callback) => {
 
   const filteredTrips = trips.filter(trip => {
     const tripDate = moment(trip.date, 'YYYY-MM-DD');
-    console.log(tripDate);
-    console.log("hi", tripDate.isBetween(startDate, endDate, 'days', '[]'));
     return (
       (!origin || trip.origin === origin) &&
       (!destination || trip.destination === destination) &&
