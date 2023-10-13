@@ -5,7 +5,8 @@ const trips = [
     "origin": "Kayes",
     "destination": "Cincinnati",
     "airline": "Pimenta Bueno Airport",
-    "date": "10/06/2024"
+    "date": "10/06/2024",
+    "emission_level_category": "red"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@ const trips = [
     "origin": "Hongtang",
     "destination": "Varāmīn",
     "airline": "Brisbane International Airport",
-    "date": "27/10/2023"
+    "date": "27/10/2023",
+    "emission_level_category": "red"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@ const trips = [
     "origin": "Lefkoniko",
     "destination": "Portel",
     "airline": "Melinda Airport",
-    "date": "05/01/2024"
+    "date": "05/01/2024",
+    "emission_level_category": "red"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@ const trips = [
     "origin": "Yangba",
     "destination": "Quivilla",
     "airline": "Beni Airport",
-    "date": "24/10/2023"
+    "date": "24/10/2023",
+    "emission_level_category": "yellow"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@ const trips = [
     "origin": "Gaofeng",
     "destination": "Yihe",
     "airline": "Yanji Chaoyangchuan Airport",
-    "date": "20/01/2024"
+    "date": "20/01/2024",
+    "emission_level_category": "green"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@ const trips = [
     "origin": "Alimono",
     "destination": "Jiuguan",
     "airline": "Neumünster Airport",
-    "date": "09/02/2024"
+    "date": "09/02/2024",
+    "emission_level_category": "green"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@ const trips = [
     "origin": "Tawau",
     "destination": "Castillos",
     "airline": "Aseki Airport",
-    "date": "19/02/2024"
+    "date": "19/02/2024",
+    "emission_level_category": "yellow"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@ const trips = [
     "origin": "Falun",
     "destination": "Ili",
     "airline": "Hartsfield Jackson Atlanta International Airport",
-    "date": "29/06/2024"
+    "date": "29/06/2024",
+    "emission_level_category": "red"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@ const trips = [
     "origin": "Manokwari",
     "destination": "Kolpashevo",
     "airline": "Trunojoyo Airport",
-    "date": "24/08/2024"
+    "date": "24/08/2024",
+    "emission_level_category": "red"
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@ const trips = [
     "origin": "Mohelnice",
     "destination": "Jacura",
     "airline": "Spring Creek Airport",
-    "date": "13/10/2023"
+    "date": "13/10/2023",
+    "emission_level_category": "green"
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@ const trips = [
     "origin": "Värnamo",
     "destination": "That Phanom",
     "airline": "Fascene Airport",
-    "date": "01/09/2024"
+    "date": "01/09/2024",
+    "emission_level_category": "yellow"
   },
   {
     "id": 12,
@@ -93,7 +104,8 @@ const trips = [
     "origin": "Miami",
     "destination": "Ibarra",
     "airline": "Sub Teniente Nestor Arias Airport",
-    "date": "25/04/2024"
+    "date": "25/04/2024",
+    "emission_level_category": "yellow"
   },
   {
     "id": 13,
@@ -101,7 +113,8 @@ const trips = [
     "origin": "Barbosa",
     "destination": "Gradec",
     "airline": "Hopedale Airport",
-    "date": "03/01/2024"
+    "date": "03/01/2024",
+    "emission_level_category": "yellow"
   },
   {
     "id": 14,
@@ -109,7 +122,8 @@ const trips = [
     "origin": "Göteborg",
     "destination": "Inhambane",
     "airline": "Cabo F.A.A. H. R. Bordón Airport",
-    "date": "27/07/2024"
+    "date": "27/07/2024",
+    "emission_level_category": "yellow"
   },
   {
     "id": 15,
@@ -117,7 +131,8 @@ const trips = [
     "origin": "Bangkalan",
     "destination": "Kadipaten",
     "airline": "Vanimo Airport",
-    "date": "07/06/2024"
+    "date": "07/06/2024",
+    "emission_level_category": "green"
   },
   {
     "id": 16,
@@ -125,7 +140,8 @@ const trips = [
     "origin": "Staromyshastovskaya",
     "destination": "Goris",
     "airline": "Tanjung Santan Airport",
-    "date": "28/05/2024"
+    "date": "28/05/2024",
+    "emission_level_category": "red"
   },
   {
     "id": 17,
@@ -133,7 +149,8 @@ const trips = [
     "origin": "Shuikou",
     "destination": "Phoenix",
     "airline": "Ivanof Bay Seaplane Base",
-    "date": "15/07/2024"
+    "date": "15/07/2024",
+    "emission_level_category": "red"
   },
   {
     "id": 18,
@@ -141,7 +158,8 @@ const trips = [
     "origin": "Villa Santa Rita",
     "destination": "Bangus Kulon",
     "airline": "Toulouse-Blagnac Airport",
-    "date": "10/11/2023"
+    "date": "10/11/2023",
+    "emission_level_category": "yellow"
   },
   {
     "id": 19,
@@ -149,7 +167,8 @@ const trips = [
     "origin": "Kertahayu",
     "destination": "Slovenske Konjice",
     "airline": "Sheremetyevo International Airport",
-    "date": "23/04/2024"
+    "date": "23/04/2024",
+    "emission_level_category": "yellow"
   },
   {
     "id": 20,
@@ -157,7 +176,8 @@ const trips = [
     "origin": "Goussainville",
     "destination": "Balky",
     "airline": "Bukhovtsi Airfield",
-    "date": "12/02/2024"
+    "date": "12/02/2024",
+    "emission_level_category": "red"
   },
   {
     "id": 21,
@@ -165,7 +185,8 @@ const trips = [
     "origin": "Antagan Segunda",
     "destination": "Laholm",
     "airline": "Aragarças Airport",
-    "date": "18/07/2024"
+    "date": "18/07/2024",
+    "emission_level_category": "red"
   },
   {
     "id": 22,
@@ -173,7 +194,8 @@ const trips = [
     "origin": "Vale Boeiro",
     "destination": "Huaqiao",
     "airline": "Julius Nyerere International Airport",
-    "date": "04/02/2024"
+    "date": "04/02/2024",
+    "emission_level_category": "yellow"
   },
   {
     "id": 23,
@@ -181,7 +203,8 @@ const trips = [
     "origin": "Pakemitan Dua",
     "destination": "Byczyna",
     "airline": "Fahud Airport",
-    "date": "18/04/2024"
+    "date": "18/04/2024",
+    "emission_level_category": "red"
   },
   {
     "id": 24,
@@ -189,7 +212,8 @@ const trips = [
     "origin": "Longtian",
     "destination": "La Garenne-Colombes",
     "airline": "Liberal Mid-America Regional Airport",
-    "date": "16/09/2024"
+    "date": "16/09/2024",
+    "emission_level_category": "yellow"
   },
   {
     "id": 25,
@@ -197,7 +221,8 @@ const trips = [
     "origin": "Saint-Eustache",
     "destination": "Girijaya",
     "airline": "Z M Jack Stell Field",
-    "date": "26/07/2024"
+    "date": "26/07/2024",
+    "emission_level_category": "yellow"
   },
   {
     "id": 26,
@@ -205,7 +230,8 @@ const trips = [
     "origin": "Pinega",
     "destination": "Ngadipuro",
     "airline": "Woodward Field",
-    "date": "30/12/2023"
+    "date": "30/12/2023",
+    "emission_level_category": "red"
   },
   {
     "id": 27,
@@ -213,7 +239,8 @@ const trips = [
     "origin": "Kijini",
     "destination": "Camperdown",
     "airline": "Siirt Airport",
-    "date": "15/06/2024"
+    "date": "15/06/2024",
+    "emission_level_category": "red"
   },
   {
     "id": 28,
@@ -221,7 +248,8 @@ const trips = [
     "origin": "Xike",
     "destination": "Santiago de Chuco",
     "airline": "Ust-Tsylma Airport",
-    "date": "09/01/2024"
+    "date": "09/01/2024",
+    "emission_level_category": "red"
   },
   {
     "id": 29,
@@ -229,7 +257,8 @@ const trips = [
     "origin": "Mahdalynivka",
     "destination": "Jinji",
     "airline": "Kotoka International Airport",
-    "date": "07/07/2024"
+    "date": "07/07/2024",
+    "emission_level_category": "green"
   },
   {
     "id": 30,
@@ -237,11 +266,10 @@ const trips = [
     "origin": "Dalmeny",
     "destination": "Paraiso",
     "airline": "Boulder Municipal Airport",
-    "date": "17/05/2024"
+    "date": "17/05/2024",
+    "emission_level_category": "yellow"
   },
 ];
-
-
 const origins = [
   "Kayes",
   "Hongtang",
